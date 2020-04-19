@@ -4,49 +4,49 @@ const cards = [
     {
       word: 'cry',
       translation: 'плакать',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/cry.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/cry.jpg',
       audioSrc: 'audio/cry.mp3'
     },
     {
       word: 'dance',
       translation: 'танцевать',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/dance.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/dance.jpg',
       audioSrc: 'audio/dance.mp3'
     },
     {
       word: 'dive',
       translation: 'нырять',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/dive.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/dive.jpg',
       audioSrc: 'audio/dive.mp3'
     },
     {
       word: 'draw',
       translation: 'рисовать',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/draw.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/draw.jpg',
       audioSrc: 'audio/draw.mp3'
     },
     {
       word: 'fish',
       translation: 'ловить рыбу',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/fish.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/fish.jpg',
       audioSrc: 'audio/fish.mp3'
     },
     {
       word: 'fly',
       translation: 'летать',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/fly.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/fly.jpg',
       audioSrc: 'audio/fly.mp3'
     },
     {
       word: 'hug',
       translation: 'обнимать',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/hug.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/hug.jpg',
       audioSrc: 'audio/hug.mp3'
     },
     {
       word: 'jump',
       translation: 'прыгать',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/jump.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/jump.jpg',
       audioSrc: 'audio/jump.mp3'
     }
   ],
@@ -54,49 +54,49 @@ const cards = [
     {
       word: 'open',
       translation: 'открывать',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/open.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/open.jpg',
       audioSrc: 'audio/open.mp3'
     },
     {
       word: 'play',
       translation: 'играть',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/play.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/play.jpg',
       audioSrc: 'audio/play.mp3'
     },
     {
       word: 'point',
       translation: 'указывать',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/point.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/point.jpg',
       audioSrc: 'audio/point.mp3'
     },
     {
       word: 'ride',
       translation: 'ездить',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/ride.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/ride.jpg',
       audioSrc: 'audio/ride.mp3'
     },
     {
       word: 'run',
       translation: 'бегать',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/run.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/run.jpg',
       audioSrc: 'audio/run.mp3'
     },
     {
       word: 'sing',
       translation: 'петь',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/sing.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/sing.jpg',
       audioSrc: 'audio/sing.mp3'
     },
     {
       word: 'skip',
       translation: 'пропускать, прыгать',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/skip.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/skip.jpg',
       audioSrc: 'audio/skip.mp3'
     },
     {
       word: 'swim',
       translation: 'плавать',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/swim.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/swim.jpg',
       audioSrc: 'audio/swim.mp3'
     }
   ],
@@ -104,49 +104,49 @@ const cards = [
     {
       word: 'cat',
       translation: 'кот',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/cat.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/cat.jpg',
       audioSrc: 'audio/cat.mp3'
     },
     {
       word: 'chick',
       translation: 'цыплёнок',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/chick.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/chick.jpg',
       audioSrc: 'audio/chick.mp3'
     },
     {
       word: 'chicken',
       translation: 'курица',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/chicken.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/chicken.jpg',
       audioSrc: 'audio/chicken.mp3'
     },
     {
       word: 'dog',
       translation: 'собака',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/dog.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/dog.jpg',
       audioSrc: 'audio/dog.mp3'
     },
     {
       word: 'horse',
       translation: 'лошадь',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/horse.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/horse.jpg',
       audioSrc: 'audio/horse.mp3'
     },
     {
       word: 'pig',
       translation: 'свинья',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/pig.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/pig.jpg',
       audioSrc: 'audio/pig.mp3'
     },
     {
       word: 'rabbit',
       translation: 'кролик',
-      image: 'assets/rabbit.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/rabbit.jpg',
       audioSrc: 'audio/rabbit.mp3'
     },
     {
       word: 'sheep',
       translation: 'овца',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/sheep.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/sheep.jpg',
       audioSrc: 'audio/sheep.mp3'
     }
   ],
@@ -154,49 +154,49 @@ const cards = [
     {
       word: 'bird',
       translation: 'птица',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/bird.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/bird.jpg',
       audioSrc: 'audio/bird.mp3'
     },
     {
       word: 'fish',
       translation: 'рыба',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/fish1.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/fish1.jpg',
       audioSrc: 'audio/fish.mp3'
     },
     {
       word: 'frog',
       translation: 'жаба',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/frog.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/frog.jpg',
       audioSrc: 'audio/frog.mp3'
     },
     {
       word: 'giraffe',
       translation: 'жирафа',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/giraffe.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/giraffe.jpg',
       audioSrc: 'audio/giraffe.mp3'
     },
     {
       word: 'lion',
       translation: 'лев',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/lion.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/lion.jpg',
       audioSrc: 'audio/lion.mp3'
     },
     {
       word: 'mouse',
       translation: 'мышь',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/mouse.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/mouse.jpg',
       audioSrc: 'audio/mouse.mp3'
     },
     {
       word: 'turtle',
       translation: 'черепаха',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/turtle.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/turtle.jpg',
       audioSrc: 'audio/turtle.mp3'
     },
     {
       word: 'dolphin',
       translation: 'дельфин',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/dolphin.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/dolphin.jpg',
       audioSrc: 'audio/dolphin.mp3'
     }
   ],
@@ -204,49 +204,49 @@ const cards = [
     {
       word: 'skirt',
       translation: 'юбка',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/skirt.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/skirt.jpg',
       audioSrc: 'audio/skirt.mp3'
     },
     {
       word: 'pants',
       translation: 'брюки',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/pants.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/pants.jpg',
       audioSrc: 'audio/pants.mp3'
     },
     {
       word: 'blouse',
       translation: 'блузка',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/blouse.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/blouse.jpg',
       audioSrc: 'audio/blouse.mp3'
     },
     {
       word: 'dress',
       translation: 'платье',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/dress.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/dress.jpg',
       audioSrc: 'audio/dress.mp3'
     },
     {
       word: 'boot',
       translation: 'ботинок',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/boot.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/boot.jpg',
       audioSrc: 'audio/boot.mp3'
     },
     {
       word: 'shirt',
       translation: 'рубашка',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/shirt.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/shirt.jpg',
       audioSrc: 'audio/shirt.mp3'
     },
     {
       word: 'coat',
       translation: 'пальто',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/coat.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/coat.jpg',
       audioSrc: 'audio/coat.mp3'
     },
     {
       word: 'shoe',
       translation: 'туфли',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/shoe.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/shoe.jpg',
       audioSrc: 'audio/shoe.mp3'
     }
   ],
@@ -254,49 +254,49 @@ const cards = [
     {
       word: 'sad',
       translation: 'грустный',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/sad.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/sad.jpg',
       audioSrc: 'audio/sad.mp3'
     },
     {
       word: 'angry',
       translation: 'сердитый',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/angry.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/angry.jpg',
       audioSrc: 'audio/angry.mp3'
     },
     {
       word: 'happy',
       translation: 'счастливый',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/happy.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/happy.jpg',
       audioSrc: 'audio/happy.mp3'
     },
     {
       word: 'tired',
       translation: 'уставший',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/tired.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/tired.jpg',
       audioSrc: 'audio/tired.mp3'
     },
     {
       word: 'surprised',
       translation: 'удивлённый',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/surprised.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/surprised.jpg',
       audioSrc: 'audio/surprised.mp3'
     },
     {
       word: 'scared',
       translation: 'испуганный',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/scared.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/scared.jpg',
       audioSrc: 'audio/scared.mp3'
     },
     {
       word: 'smile',
       translation: 'улыбка',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/smile.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/smile.jpg',
       audioSrc: 'audio/smile.mp3'
     },
     {
       word: 'laugh',
       translation: 'смех',
-      image: 'file:///C:/Users/KOSTA/Desktop/rslang/assets/laugh.jpg',
+      image: 'file:///C:/Users/KOSTA/Desktop/rslang github site/Yeeeeee1.github.io/rslang/assets/laugh.jpg',
       audioSrc: 'audio/laugh.mp3'
     }
   ]
