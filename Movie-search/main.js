@@ -478,6 +478,7 @@ function onSignIn(googleUser) {
 userImage[0].addEventListener("click", function (e) {
     if (j % 2 != 0) {
     request[0].style.display = "block";
+    request[0].innerHTML = input.value;
     lastRequest[0].style.display = "block";
 } else {
     request[0].style.display = "none";
