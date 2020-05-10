@@ -66,7 +66,7 @@ async function GetApi() {
   	result.innerHTML = "";
   }
   
-const url = `http://www.omdbapi.com/?s=${translation}&apikey=5f85f0e7`;
+const url = `https://www.omdbapi.com/?s=${translation}&apikey=5f85f0e7`;
 fetch(url)
   .then(res => res.json())
   .then(data => {
