@@ -385,6 +385,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
     done[0].addEventListener('click', function (e) {
     	if (input.value != "") {
+            request[0].innerHTML = input.value;
 		preloader.classList.remove("hide");
   setTimeout(function() {
     preloader.classList.add("hide");
@@ -424,6 +425,7 @@ window.onload = function () {
 
 search.addEventListener('click', function () {
   if (input.value != "") {
+    request[0].innerHTML = input.value;
 		preloader.classList.remove("hide");
   setTimeout(function() {
     preloader.classList.add("hide");
@@ -436,6 +438,7 @@ search.addEventListener('click', function () {
 input.addEventListener('keydown', function (e) {
 	if (e.code == "Enter") {
 	if (input.value != "") {
+        request[0].innerHTML = input.value;
 		preloader.classList.remove("hide");
   setTimeout(function() {
     preloader.classList.add("hide");
@@ -478,7 +481,6 @@ function onSignIn(googleUser) {
 userImage[0].addEventListener("click", function (e) {
     if (j % 2 != 0) {
     request[0].style.display = "block";
-    request[0].innerHTML = input.value;
     lastRequest[0].style.display = "block";
 } else {
     request[0].style.display = "none";
