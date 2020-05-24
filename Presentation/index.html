@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section><h1>Angular</h1></section>
+				<section>
+					<section>
+						<h3>What is It?</h3>
+					</section>
+					<section>
+						Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Differences between Angular and AngularJS</h3>
+					</section>
+					<section>
+						AngularJS is an open source JavaScript framework. Designed for the development of single-page applications. Its goal is to expand browser applications based on the MVC template, as well as simplify testing and development.
+					</section>
+					<section>
+						Angular was designed as a ground-up rewrite of AngularJS.
+						<li>Angular does not have a concept of "scope" or controllers, instead it uses a hierarchy of components as its primary architectural characteristic.</li>
+						<li>Angular has a different expression syntax, focusing on "[ ]" for property binding, and "( )" for event binding</li>
+						<li>Modularity – much core functionality has moved to modules</li>
+						<li>Angular recommends the use of Microsoft's TypeScript language, which introduces the following features:</li>
+					</section>
+					<section>
+						<li>Static typing, including Generics</li>
+						<li>Annotations</li>
+						<li>TypeScript is a superset of ECMAScript 6 (ES6), and is backwards compatible with ECMAScript 5 (i.e.: JavaScript).</li>
+						<li>Dynamic loading</li>
+						<li>Asynchronous template compilations</li>
+						<li>Iterative callbacks provided by RxJS. RxJS limits state visibility and debugging, but these can be solved with reactive add-ons like ngReact or ngrx.</li>
+						<li>Support for Angular Universal, which runs Angular applications on servers</li>
+					</section>
+					<section>
+						<li>Support for Angular Universal, which runs Angular applications on servers</li>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>History</h3>
+					</section>
+					<section>
+						<h3>Naming</h3>
+						Originally, the rewrite of AngularJS was called "Angular 2", but this led to confusion among developers. To clarify, the Team announced that separate terms should be used for each framework with "AngularJS" referring to the 1.X versions and "Angular" without the "JS" referring to versions 2 and up.
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>advantages and disadvantages</h3>
+					</section>
+					<section>
+						<br>
+						<b>Pros of Angular</b>
+						<br>
+						<b>MVC Architecture implementation</b>
+						<br>
+						Model-View-Controller architecture, not only attaches value to the framework when creating a client-side app but also sets the foundation for the other features like data binding and scopes.
+						With MVC architecture, it is possible to isolate the app logic from the UI layer and support separation of concerns. The controller receives all requests for the app and operates with the model to prepare any data needed by the view. 
+						
+						
+					</section>
+					<section>
+						The view uses the data prepared by the controller and displays a final presentable response.
+					</section>
+					<section>
+						<br>
+						<b>Enhanced Design Architecture</b>
+						<br>
+						Some of the large web applications contain a lot of components. Angular simplifies the way of managing these components even if a new programmer joins the project after the development process has already begun. The architecture is built in such a way that helps the programmer to locate and develop the code easily.
+						
+					</section>
+					<section>
+						<br>
+						<b>Modules</b>
+						<br>
+						A module is a mechanism that groups directives, components, pipes and services that are related, in such a way that can be combined with other modules in order to create an application The Angular-based app can be considered as a puzzle where each module is needed to be able to see the full picture. There are a number of ways to add different elements to a module. Angular solves the problem of global function exploitation by limiting the scope of all functions to the module, in which it was defined and used.
+						
+					</section>
+					<section>
+						<br>
+						<b>Services and Dependency Injection (DI)</b>
+						<br>
+						A service or component might sometimes need other dependent services to complete a task. A Dependency Injection design pattern is used in order to fulfill these dependencies. It divides the task among different services. The client service will not create the dependent object, rather it will be created and injected by an Angular injector. The Angular injector is responsible for creating service instances and injecting them into classes like components and services.
+						
+					</section>
+					<section>
+						<br>
+						<b>Custom directives</b>
+						<br>
+						Custom directives improve HTML functionality and are suitable for dynamic client-side applications. They all start with the prefix ng so that HTML can identify them. Some of these are:
+						Front End Web Development Training
+						NgModel: provides two-way data binding to an HTML form elements.
+						NgClass: removes and adds a set of CSS classes.
+						NgStyle: adds and removes a set of HTML styles.
+						TypeScript: better tooling, cleaner code, and higher scalability
+						Angular is written using TypeScript, which is a superset for JavaScript. It 
+					</section>
+					<section>
+						fully complies to JavaScript and also helps spot and eliminate common mistakes while coding. While small JavaScript projects do not require such an enhancement, the enterprise-scale applications need developers to make their code cleaner and verify the quality more often.
+					</section>
+					<section>
+						<br>
+						<b>Cons of Angular</b>
+						<br>
+						<b>Limited SEO options</b>
+						<br>
+						A major drawback of using Angular is the limited SEO options and poor accessibility for search engine crawlers.
+						Angular is verbose and complex
+						A frequent complaint that you would hear from the Angular developers is the verbosity of the instrument. And this problem hasn’t changed much since AngularJS.
+						
+						
+					</section>
+					<section>
+						<br>
+						<b>Steep learning curve</b>
+						<br>
+						If you onboard new developers who are familiar with JavaScript to use new Angular, they would find it difficult as compared to React or Vue onboarding. This is because the array of topics and aspects to be covered is quite large.
+					</section>
+					<section>
+						<br>
+						<b>CLI documentation is lacking details</b>
+						<br>
+						Some developers express concerns with the current state of CLI documentation. While the command line is very useful fo Angular developers, you won’t find enough information in their official documentation on GitHub and you have to spend more time exploring threads on GitHub to get answers.
+					</section>
+				</section>
+				<section style="text-align: left; top: 168px; display: block;" data-background="black" data-background-transition="zoom"><h1>The end</h1></section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
