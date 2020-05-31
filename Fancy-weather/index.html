@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-widht, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=76a833b5-74c9-4bd3-915c-3ff130d9a4d8&lang=ru_RU" type="text/javascript">
+    </script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&amp;display=swap&amp;subset=cyrillic" rel="stylesheet">
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+	<title>Fancy Weather</title>
+</head>
+<body id="body">
+	<div class="button-cluster">
+		<div class="button-cluster__left-sub-cluster">
+			<button class="button button--update">
+				<div class="spinner" id="spinner"></div>
+			</button>
+			<div class="language-menu">
+			<select class="button" id="selectBox" onchange="changeLang();">
+				<option>EN</option>
+				<option>RU</option>
+				<option>BE</option>
+			</select>
+		</div>
+		<button class="button button--f" id="buttonF">°F</button>
+		<button class="button button--c" id="buttonC">°C</button>
+		<button id="speak" class="button">SP</button>
+		<button id="stop" class="button">ST</button>
+		</div>
+		<div class="button-cluster__right-sub-cluster">
+			<input class="search-input" type="search" name="search-city" required placeholder="Search city or ZIP">
+			<button class="button search-input__button">Search</button>
+			<button class="search-input__voice-button" id="microphone"></button>
+		</div>
+	</div>
+	<div class="main-wrapper">
+		<div class="weather-data-cluster">
+			<p class="weather-data-cluster__location"></p>
+			<p class="weather-data-cluster__data-time"></p>
+			<p class="weather-data-cluster__temperature-today"></p>
+			<img class="weather-data-cluster__weather-icon" alt="" src="">
+			<div class="weather-data-cluster__weather-data">
+				<p>Overcast</p>
+				<p id="feels-like">Feels Like: </p>
+				<p id="wind">Wind: </p>
+				<p id="humidity">Humidity: </p>
+			</div>
+			<div class="forecast">
+				<p class="forecast__day" id="forecast__day"></p>
+				<p class="forecast__temperature" id="forecast__temperature"></p>
+				<img class="forecast__icon" src="" id="forecast__icon">
+			</div>
+			<div class="forecast">
+				<p class="forecast__day" id="forecast__day2"></p>
+				<p class="forecast__temperature" id="forecast__temperature2"></p>
+				<img class="forecast__icon" src="" id="forecast__icon2">
+			</div>
+			<div class="forecast">
+				<p class="forecast__day" id="forecast__day3"></p>
+				<p class="forecast__temperature" id="forecast__temperature3"></p>
+				<img class="forecast__icon" src="" id="forecast__icon3">
+			</div>
+		</div>
+		<div class="map-cluster">
+			<div class="map-cluster__map" id="map"></div>
+			<div class="map-cluster__coordinates">
+				<p id="latitude"></p>
+				<p id="longitude"></p>
+			</div>
+		</div>
+	</div>
+	<div class="tricker-wrapper">
+		<div class="tricker">
+			<!---->
+			<p id="tricker-item" class="tricker-item"></p>
+			<p id="tricker-item-day" class="tricker-item"></p>
+			<p id="tricker-item-temp" class="tricker-item"></p>
+			<p id="tricker-item-desc" class="tricker-item"></p>
+			<p id="tricker-item-wind" class="tricker-item"></p>
+			<p id="tricker-item-hum" class="tricker-item"></p>
+			<p id="tricker-item" class="tricker-item"></p>
+			<!---->
+			<p id="tricker-item1" class="tricker-item"></p>
+			<p id="tricker-item-day1" class="tricker-item"></p>
+			<p id="tricker-item-temp1" class="tricker-item"></p>
+			<p id="tricker-item-desc1" class="tricker-item"></p>
+			<p id="tricker-item-wind1" class="tricker-item"></p>
+			<p id="tricker-item-hum1" class="tricker-item"></p>
+			<p id="tricker-item1" class="tricker-item"></p>
+			<!---->
+			<p id="tricker-item2" class="tricker-item"></p>
+			<p id="tricker-item-day2" class="tricker-item"></p>
+			<p id="tricker-item-temp2" class="tricker-item"></p>
+			<p id="tricker-item-desc2" class="tricker-item"></p>
+			<p id="tricker-item-wind2" class="tricker-item"></p>
+			<p id="tricker-item-hum2" class="tricker-item"></p>
+			<p id="tricker-item2" class="tricker-item"></p>
+			<!---->
+			<p id="tricker-item3" class="tricker-item"></p>
+			<p id="tricker-item-day3" class="tricker-item"></p>
+			<p id="tricker-item-temp3" class="tricker-item"></p>
+			<p id="tricker-item-desc3" class="tricker-item"></p>
+			<p id="tricker-item-wind3" class="tricker-item"></p>
+			<p id="tricker-item-hum3" class="tricker-item"></p>
+			<p id="tricker-item3" class="tricker-item"></p>
+			<!---->
+			<p id="tricker-item4" class="tricker-item"></p>
+			<p id="tricker-item-day4" class="tricker-item"></p>
+			<p id="tricker-item-temp4" class="tricker-item"></p>
+			<p id="tricker-item-desc4" class="tricker-item"></p>
+			<p id="tricker-item-wind4" class="tricker-item"></p>
+			<p id="tricker-item-hum4" class="tricker-item"></p>
+			<p id="tricker-item4" class="tricker-item"></p>
+			<!---->
+			<p id="tricker-item5" class="tricker-item"></p>
+			<p id="tricker-item-day5" class="tricker-item"></p>
+			<p id="tricker-item-temp5" class="tricker-item"></p>
+			<p id="tricker-item-desc5" class="tricker-item"></p>
+			<p id="tricker-item-wind5" class="tricker-item"></p>
+			<p id="tricker-item-hum5" class="tricker-item"></p>
+			<p id="tricker-item5" class="tricker-item"></p>
+			<!---->
+			<p id="tricker-item6" class="tricker-item"></p>
+			<p id="tricker-item-day6" class="tricker-item"></p>
+			<p id="tricker-item-temp6" class="tricker-item"></p>
+			<p id="tricker-item-desc6" class="tricker-item"></p>
+			<p id="tricker-item-wind6" class="tricker-item"></p>
+			<p id="tricker-item-hum6" class="tricker-item"></p>
+			<p id="tricker-item6" class="tricker-item"></p>
+
+		</div>
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
