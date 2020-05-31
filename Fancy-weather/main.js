@@ -270,7 +270,7 @@ fetch(ipUrl)
 					trickerItemWind.innerHTML = "Wind: " + Math.trunc(data.list[i].wind.speed) + " m/s";
 					trickerItemHum.innerHTML = "Humidity: " + data.list[i].main.humidity + "%";
 			}
-			if (data.list[i].dt_txt.slice(8, -8) == (date.getDate() + 1) - 31) {
+			if (data.list[i].dt_txt.slice(8, -8) == date.getDate() + 1) {
 				function getWeekDay(date) {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 
@@ -300,7 +300,7 @@ fetch(ipUrl)
 					trickerItemWind1.innerHTML = "Wind: " + Math.trunc(data.list[i].wind.speed) + " m/s";
 					trickerItemHum1.innerHTML = "Humidity: " + data.list[i].main.humidity + "%";
 			}
-			if (data.list[i].dt_txt.slice(8, -8) == (date.getDate() + 2) - 31) {
+			if (data.list[i].dt_txt.slice(8, -8) == date.getDate() + 2) {
 				function getWeekDay(date) {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 
@@ -331,7 +331,7 @@ fetch(ipUrl)
 					trickerItemHum2.innerHTML = "Humidity: " + data.list[i].main.humidity + "%";
 			}
 
-			if (parseInt(data.list[i].dt_txt.slice(8, -8), 10) == (date.getDate() + 3) - 31) {
+			if (parseInt(data.list[i].dt_txt.slice(8, -8), 10) == date.getDate() + 3) {
 				function getWeekDay(date) {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 
@@ -361,7 +361,7 @@ fetch(ipUrl)
 					trickerItemWind3.innerHTML = "Wind: " + Math.trunc(data.list[i].wind.speed) + " m/s";
 					trickerItemHum3.innerHTML = "Humidity: " + data.list[i].main.humidity + "%";
 			}
-			if (data.list[i].dt_txt.slice(9, -8) == (date.getDate() + 4) - 31) {
+			if (data.list[i].dt_txt.slice(9, -8) == date.getDate() + 4) {
 				function getWeekDay(date) {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 
@@ -376,7 +376,7 @@ fetch(ipUrl)
 					trickerItemWind4.innerHTML = "Wind: " + Math.trunc(data.list[i].wind.speed) + " m/s";
 					trickerItemHum4.innerHTML = "Humidity: " + data.list[i].main.humidity + "%";
 			}
-			if (data.list[i].dt_txt.slice(9, -8) == (date.getDate() + 5) - 31) {
+			if (data.list[i].dt_txt.slice(9, -8) == date.getDate() + 5) {
 				function getWeekDay(date) {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 
@@ -391,7 +391,7 @@ fetch(ipUrl)
 					trickerItemWind5.innerHTML = "Wind: " + Math.trunc(data.list[i].wind.speed) + " m/s";
 					trickerItemHum5.innerHTML = "Humidity: " + data.list[i].main.humidity + "%";
 			}
-			if (data.list[i].dt_txt.slice(9, -8) == (date.getDate() + 5) - 31 && data.list[i].dt_txt.slice(14) == "00:00") {
+			if (data.list[i].dt_txt.slice(9, -8) == date.getDate() + 5 && data.list[i].dt_txt.slice(14) == "00:00") {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 				var day = parseInt(data.list[i].dt_txt.slice(8, -8)) + 1;
 				var year = data.list[i].dt_txt.slice(0, -15);
@@ -494,7 +494,7 @@ fetch(url)
 				trickerItemTemp.innerHTML = Math.ceil(data.list[i].main.temp - 273) + "°";
 			    }
 			}
-			if (data.list[i].dt_txt.slice(8, -8) == (date.getDate() + 1) - 31) {
+			if (data.list[i].dt_txt.slice(8, -8) == date.getDate() + 1) {
 				function getWeekDay(date) {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 
@@ -525,7 +525,7 @@ fetch(url)
 		}
 		}
 			}
-			if (data.list[i].dt_txt.slice(8, -8) == (date.getDate() + 2) - 31) {
+			if (data.list[i].dt_txt.slice(8, -8) == date.getDate() + 2) {
 				function getWeekDay(date) {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 
@@ -556,7 +556,7 @@ fetch(url)
 		}
 		}
 			}
-			if (data.list[i].dt_txt.slice(8, -8) == (date.getDate() + 3) - 31) {
+			if (data.list[i].dt_txt.slice(8, -8) == date.getDate() + 3) {
 				function getWeekDay(date) {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 
@@ -587,7 +587,7 @@ fetch(url)
 		}
 		}
 			}
-			if (data.list[i].dt_txt.slice(8, -8) == (date.getDate() + 4) - 31) {
+			if (data.list[i].dt_txt.slice(8, -8) == date.getDate() + 4) {
 				function getWeekDay(date) {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 
@@ -602,7 +602,7 @@ fetch(url)
 				trickerItemTemp4.innerHTML = Math.ceil(data.list[i].main.temp - 273) + "°";
 			    }
 			}
-			if (data.list[i].dt_txt.slice(8, -8) == (date.getDate() + 5) - 31) {
+			if (data.list[i].dt_txt.slice(8, -8) == date.getDate() + 5) {
 				function getWeekDay(date) {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 
@@ -617,7 +617,7 @@ fetch(url)
 				trickerItemTemp5.innerHTML = Math.ceil(data.list[i].main.temp - 273) + "°";
 			    }
 			}
-			if (data.list[i].dt_txt.slice(8, -8) == (date.getDate() + 6) - 31) {
+			if (data.list[i].dt_txt.slice(8, -8) == date.getDate() + 6) {
 				function getWeekDay(date) {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 
@@ -710,7 +710,7 @@ fetch(WUrl)
 					trickerItemWind.innerHTML = "Wind: " + Math.trunc(data.list[i].wind.speed) + " m/s";
 					trickerItemHum.innerHTML = "Humidity: " + data.list[i].main.humidity + "%";
 			}
-			if (data.list[i].dt_txt.slice(8, -8) == (date.getDate() + 1) - 31) {
+			if (data.list[i].dt_txt.slice(8, -8) == date.getDate() + 1) {
 				function getWeekDay(date) {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 
@@ -748,7 +748,7 @@ fetch(WUrl)
 					trickerItemWind1.innerHTML = "Wind: " + Math.trunc(data.list[i].wind.speed) + " m/s";
 					trickerItemHum1.innerHTML = "Humidity: " + data.list[i].main.humidity + "%";
 			}
-			if (data.list[i].dt_txt.slice(8, -8) == (date.getDate() + 2) - 31) {
+			if (data.list[i].dt_txt.slice(8, -8) == date.getDate() + 2) {
 				function getWeekDay(date) {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 
@@ -786,7 +786,7 @@ fetch(WUrl)
 					trickerItemWind2.innerHTML = "Wind: " + Math.trunc(data.list[i].wind.speed) + " m/s";
 					trickerItemHum2.innerHTML = "Humidity: " + data.list[i].main.humidity + "%";
 			}
-			if (parseInt(data.list[i].dt_txt.slice(8, -8), 10) == (date.getDate() + 3) - 31) {
+			if (parseInt(data.list[i].dt_txt.slice(8, -8), 10) == date.getDate() + 3) {
 				function getWeekDay(date) {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 
@@ -824,7 +824,7 @@ fetch(WUrl)
 					trickerItemWind3.innerHTML = "Wind: " + Math.trunc(data.list[i].wind.speed) + " m/s";
 					trickerItemHum3.innerHTML = "Humidity: " + data.list[i].main.humidity + "%";
 			}
-			if (data.list[i].dt_txt.slice(9, -8) == (date.getDate() + 4) - 31) {
+			if (data.list[i].dt_txt.slice(9, -8) == date.getDate() + 4) {
 				function getWeekDay(date) {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 
@@ -843,7 +843,7 @@ fetch(WUrl)
 					trickerItemWind4.innerHTML = "Wind: " + Math.trunc(data.list[i].wind.speed) + " m/s";
 					trickerItemHum4.innerHTML = "Humidity: " + data.list[i].main.humidity + "%";
 			}
-			if (data.list[i].dt_txt.slice(9, -8) == (date.getDate() + 5) - 31) {
+			if (data.list[i].dt_txt.slice(9, -8) == date.getDate() + 5) {
 				function getWeekDay(date) {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 
@@ -862,7 +862,7 @@ fetch(WUrl)
 					trickerItemWind5.innerHTML = "Wind: " + Math.trunc(data.list[i].wind.speed) + " m/s";
 					trickerItemHum5.innerHTML = "Humidity: " + data.list[i].main.humidity + "%";
 			}
-			if (data.list[i].dt_txt.slice(9, -8) == (date.getDate() + 5) - 31 && data.list[i].dt_txt.slice(14) == "00:00") {
+			if (data.list[i].dt_txt.slice(9, -8) == date.getDate() + 5 && data.list[i].dt_txt.slice(14) == "00:00") {
 					let days = ['ВОСКРЕСЕНЬЕ', 'ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА'];
 				var day = parseInt(data.list[i].dt_txt.slice(8, -8)) + 1;
 				var year = data.list[i].dt_txt.slice(0, -15);
