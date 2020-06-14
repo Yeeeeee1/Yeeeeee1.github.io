@@ -1,0 +1,219 @@
+body {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  margin: 0 auto;
+  background-image: url(assets/puzzle-english-main-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Montserrat, tahoma, sans-serif;
+}
+
+.autorization-wrapper {
+  left: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 900;
+}
+
+.autorization {
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  background-color: white;
+}
+
+.registration-site-name {
+  text-align: center;
+}
+
+.registration-word {
+  text-align: center;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 200px;
+}
+
+.password-email-name {
+  text-align: center;
+  font-family: Monteserrat, tahoma, sans-serif;
+}
+
+.registration-password-email {
+  width: 300px;
+  height: 50px;
+  margin-left: 47px;
+  border-radius: 20px;
+  border: 2px solid #3266ec;
+  outline: 0;
+  text-indent: 1em;
+}
+
+.button-registration {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-to-registration {
+  width: 100px;
+  height: 50px;
+  background-color: #eb3c3c;
+  border: none;
+  border-radius: 20px;
+  outline: 0;
+  cursor: pointer;
+  color: white;
+}
+
+.start-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 800;
+  display: none;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.start-name-of-site {
+  letter-spacing: 10px;
+}
+
+.start-description {
+  text-align: center;
+  width: 400px;
+}
+
+.button-start {
+  width: 100px;
+  height: 50px;
+  background-color: #6d3954;
+  border: none;
+  border-radius: 20px;
+  outline: 0;
+  cursor: pointer;
+  color: white;
+}
+
+.drag-and-drop-block {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 80%;
+  width: 100%;
+  display: none;
+}
+
+.drag-button {
+  border: 0.5px solid #d1cfcd;
+  cursor: pointer;
+  width: 96px;
+  height: 50px;
+}
+
+.drag-wrapper {
+  outline: 0;
+  border: 2px groove #d1cfcd;
+  margin: 0;
+  display: flex;
+  width: 768px;
+  height: 500px;
+  background-color: #e7e4e0;
+}
+
+.buttons-drag-wrapper {
+  width: 768px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  height: 50px;
+}
+
+.mousesover {
+}
+
+.mousesover2 {
+}
+
+.button-check {
+  width: 150px;
+  height: 50px;
+  background-color: #9a3066;
+  border: none;
+  border-radius: 3px;
+  outline: 0;
+  cursor: pointer;
+  color: white;
+  margin-left: 10px;
+}
+
+.level-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 350px) {
+  .registration-password-email {
+    width: 230px;
+  }
+  .start-name-of-site {
+    text-align: center;
+  }
+  .start-description {
+    width: 250px;
+  }
+}
+
+.options {
+  width: 768px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.translate {
+}
+
+.volume {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.buttons-checks-wrapper {
+  width: 768px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.disabled-button {
+  filter: grayscale(1);
+  cursor: auto;
+}
